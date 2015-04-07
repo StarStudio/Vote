@@ -1,0 +1,39 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,
+input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse: collapse;border-spacing: 0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style: normal;
+font-weight: normal;}
+ol,ul{list-style: none;padding:0px;}
+caption,th{text-align: left;}
+h1,h2,h3,h4,h5,h6 {font-size: 100%;font-weight: normal;}
+q:before,q:after{content: '';}
+abbr,acronym{border:0;}
+a{text-decoration: none;color: #000;}
+li{list-style: none;}
+/*定位*/
+.clearfix:after{content: ".";display: block;height: 0;clear: both;
+visibility: hidden;};
+.clearfix{display: block;}
+.zoom{zoom:1;}
+@font-face {
+  font-family: 'yuweij';
+  src: url('../fonts/yuweij.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MFShangHei_Noncommercial-Bold';
+  src: url('../fonts/MFShangHei_Noncommercial-Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+*::selection{
+	text-shadow: none;
+	background: #328efe;
+	color: #fff;
+}
+body{background: #f8f8f3}
+#think_page_trace, #think_page_trace_open{
+	display: none;
+}

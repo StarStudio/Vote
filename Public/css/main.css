@@ -1,0 +1,132 @@
+@charset "UTF-8";
+body > div{
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+}
+.content{
+	position: relative;
+	left: 50%;
+	height: 100%;
+	overflow: visible;
+}
+.main{
+	width: 1920px;
+	height: 576px;
+	position: relative;
+	left: -960px;
+	box-shadow: 0 7px 7px #a29e99, 0 -7px 7px #a29e99;
+	background: url(../images/head_bg.jpg) no-repeat center center;
+}
+.logo{
+	width: 1024px;
+	margin: 0 auto;
+}
+.logo img{
+	margin-top: 15px;
+}
+.title{
+	margin-top: 55px;
+	font-family: 'yuweij';
+	font-size: 55px;
+	color: #484343;
+	white-space: nowrap;
+	height: 60px;
+	text-shadow: 0 1px 2px #f8f8f8, 0 -1px 2px #f8f8f8,1px 0 2px #f8f8f8,-1px 0 2px #f8f8f8;
+	letter-spacing: 5px;
+	text-align: center;
+}
+.timeline{
+	margin-top: 35px;
+	/*background: url(../images/timeline.png) no-repeat 50% 50%;*/
+}
+.wrap_timeline{
+	margin: 0 auto;
+	width: 600px;
+	height: 150px;
+	position: relative;
+}
+.timeline_down,.timeline_up{
+	float: left;
+	width: 16.6678%;
+	height: 75px;
+	position: relative;
+	color:#3c3c3c;
+}
+.timeline_down{
+	top: 75px;
+}
+.timeline_down p,.timeline_up p{
+	margin-top:8px;
+	margin-bottom:8px;
+	white-space: nowrap;
+	font-family: '黑体';
+	text-shadow: 0 2px 2px #f8f8f8, 0 -2px 2px #f8f8f8,2px 0 2px #f8f8f8,-2px 0 2px #f8f8f8;
+	font-weight: bold;
+	text-align: center;
+}
+p.name{
+	font-size: 23px;
+}
+.timeline_up_point{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 40%;
+	bottom: -12px;
+	/*background: url(../images/point.png) no-repeat;*/
+}
+.timeline_down_point{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 40%;
+	top: -8px;
+	/*background: url(../images/point.png) no-repeat;*/
+}
+#choice{
+	margin:auto;
+	height: 71px;
+}
+#wrap_choice{
+	width: 370px;
+	margin:auto;
+}
+#broadcast_vote{
+	display: inline-block;
+	background: url(../images/broadcast_button1.png) no-repeat;
+	width: 150px;
+	height: 71px;
+}
+#broadcast_vote:active{
+	background: url(../images/broadcast_button2.png) no-repeat;
+}
+#choice img{
+	margin-left: 12px;
+	margin-right: 12px;
+}
+#article_vote{
+	display: inline-block;
+	background: url(../images/article_button1.png) no-repeat;
+	width: 150px;
+	background-position-y:6px;
+	height: 71px;
+}
+#article_vote:active{
+	background: url(../images/article_button2.png) no-repeat;
+	background-position-y:6px;
+}
+#vote{
+	width: 96px;
+	height: 27px;
+	background: url(../images/vote.png) no-repeat center center;
+	margin: 0 auto;
+	position: relative;
+	left: 390px;
+	top: 40px;
+}
+#vote a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}

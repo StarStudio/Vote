@@ -1,0 +1,76 @@
+.article{
+	width: 225px;
+	border-radius: 5px;
+	float: left;
+	margin-left:40px;
+}
+@-webkit-keyframes broadcast_slide{
+	0%{margin-top:40px;opacity:0;}
+	100%{margin-top: 20px;opacity: 100;}
+}
+.article .a_wrap{
+	margin-top: 20px;
+	box-shadow: 0 2px 10px #aaaaaa;
+	border\0: 2px solid #aaa;
+	-webkit-animation:broadcast_slide 1s;
+	border-bottom-left-radius:5px;
+}
+.article .up_part{
+	height: 140px;
+	background: url(../images/01.jpg) no-repeat;
+}
+.mid_part h4{
+	height: 30px;
+	font-family: '黑体';
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: bold;
+	text-indent: 5px;
+}
+.mid_part p{
+	font-size: 14px;
+	font-family: '微软雅黑';
+	max-height: 300px;
+	white-space: pre-wrap;
+	line-height: 1.5em;
+	margin: 0 10px 5px;
+}
+/*chrome\opera方法省略号 放在嵌套文字的标签中<p>*/
+.ellipsis{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-overflow:-o-ellipsis-lastline;
+    display: -webkit-box;
+    -webkit-line-clamp: 14;
+    -webkit-box-orient: vertical;
+}
+.down_part{
+	background: #f3f3f3;
+	border-top:1px solid #aaaaaa;
+	height: 40px;
+	border-bottom-left-radius:5px;
+}
+.down_part .love{
+	float: right;
+	width: 45%;
+	height: 40px;
+	line-height: 40px;
+	background: #dc6263;
+	text-align: center;
+	border-top: #dc6263;
+	color: white;
+	border-bottom-right-radius:5px;
+}
+.down_part .love a{
+	text-decoration: none;
+}
+.down_part .love a:link{
+	color: white;
+}
+.down_part .love a:visited{
+	color:white;
+}
+.water{
+	height: 100%;
+	background: url(../images/article.png) no-repeat bottom right;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<css file="__PUBLIC__/Css/public.css" />
+</head>
+<body>
+<table class="table">
+	<tr>
+		<th>ID</th>
+		<th>博文名称</th>
+		<th>简介内容</th>
+		<th>链接地址</th>
+		<th>投票票数</th>
+		<th>操作</th>
+	</tr>
+	<foreach name="passage" item="v">
+	<tr>
+		<td>{$v.id}</td>
+		<td>{$v.title}</td>
+		<td>{$v.content}</td>
+		<td>{$v.href}</td>
+		<td>{$v.vote_number}</td>
+		<td><a href="{:U('Admin/Page/delete', array('id' => $v['id']))}">删除</a></td>
+	</tr>
+	</foreach>
+	<tr>
+		<td colspan="6" align="center">{$page}</td>
+	</tr>
+</table>
+</body>
+</html>

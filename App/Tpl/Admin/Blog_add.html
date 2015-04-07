@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="__PUBLIC__/Css/login.css" />
+</head>
+<body>
+	<div class="login">	
+		<form action="{:u('Admin/Blog/add_post')}" method="post" id="login">
+		<table border="1" width="100%">
+			<tr>
+				<th>博客名称:</th>
+				<td>
+					<input style="width:490px;" type="text" name="title"/>
+				</td>
+			</tr>
+			<tr>
+				<th>简介内容:</th>
+				<td>
+					<textarea style="width:490px;color:#999;height:200px;border:solid 1px #dcdcdc;padding:3px 6px;" name="content"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<th>链接地址:</th>
+				<td>
+					<input style="width:490px;" type="text" name="href"/>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align:center;"> <input type="submit" class="submit" value="提交"/></td>
+			</tr>
+		</table>
+		</form>
+	</div>
+</body>
+</html>

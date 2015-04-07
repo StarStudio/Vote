@@ -1,0 +1,409 @@
+[ 2015-04-06T00:10:53+08:00 ] 183.222.9.144 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000440s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000238s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000152s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000103s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000167s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000240s ]
+
+[ 2015-04-06T00:10:54+08:00 ] 183.222.9.144 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000411s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000252s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000133s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000093s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000840s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000146s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000218s ]
+
+[ 2015-04-06T01:42:27+08:00 ] 121.48.152.4 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000436s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000230s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000141s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000094s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000822s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000162s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000232s ]
+
+[ 2015-04-06T02:17:18+08:00 ] 157.55.39.59 /robots.txt
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+NOTIC: [8] Undefined variable: group /home/www/vote/ThinkPHP/Lib/Core/App.class.php 第 102 行.
+ERR: 无法加载模块:robots.txt
+
+[ 2015-04-06T02:17:20+08:00 ] 157.55.39.59 /Index/Index/article.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000189s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.015474s ]
+SQL: SELECT * FROM `star_passage` ORDER BY id DESC  [ RunTime:0.000783s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003587s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000186s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000151s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000806s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000164s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000234s ]
+
+[ 2015-04-06T02:26:22+08:00 ] 157.55.39.79 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000183s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000986s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003478s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000181s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000138s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000090s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000770s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000143s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000215s ]
+
+[ 2015-04-06T09:27:19+08:00 ] 66.249.75.36 /robots.txt
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000244s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Undefined variable: group /home/www/vote/ThinkPHP/Lib/Core/App.class.php 第 102 行.
+ERR: 无法加载模块:robots.txt
+
+[ 2015-04-06T15:06:41+08:00 ] 68.180.228.27 /robots.txt
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000213s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Undefined variable: group /home/www/vote/ThinkPHP/Lib/Core/App.class.php 第 102 行.
+ERR: 无法加载模块:robots.txt
+
+[ 2015-04-06T15:06:42+08:00 ] 68.180.228.27 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000454s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000245s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000142s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000106s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000187s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000260s ]
+
+[ 2015-04-06T17:44:47+08:00 ] 123.125.71.80 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000457s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000273s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000149s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000903s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000177s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000254s ]
+
+[ 2015-04-06T17:45:38+08:00 ] 123.125.71.116 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000415s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000228s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000133s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000089s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000146s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000221s ]
+
+[ 2015-04-06T17:46:39+08:00 ] 220.181.108.78 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000429s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000235s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000142s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000164s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000233s ]
+
+[ 2015-04-06T17:47:26+08:00 ] 220.181.108.94 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000410s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000223s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000131s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000091s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000142s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000211s ]
+
+[ 2015-04-06T18:39:24+08:00 ] 66.249.75.44 /robots.txt
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000194s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined variable: group /home/www/vote/ThinkPHP/Lib/Core/App.class.php 第 102 行.
+ERR: 无法加载模块:robots.txt
+
+[ 2015-04-06T18:39:25+08:00 ] 66.249.75.28 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000446s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000237s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000147s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000867s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000170s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000243s ]
+
+[ 2015-04-06T19:03:21+08:00 ] 61.14.146.240 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000434s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000233s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000143s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000095s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000166s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000236s ]
+
+[ 2015-04-06T20:26:20+08:00 ] 183.7.15.1 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000200s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001038s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000156s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003585s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000189s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000157s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000813s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000183s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000256s ]
+
+[ 2015-04-06T20:26:22+08:00 ] 183.7.15.1 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000942s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000218s ]
+
+[ 2015-04-06T20:26:24+08:00 ] 183.7.15.1 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000965s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 8,8   [ RunTime:0.000234s ]
+
+[ 2015-04-06T20:26:26+08:00 ] 183.7.15.1 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000157s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000946s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 16,8   [ RunTime:0.000222s ]
+
+[ 2015-04-06T20:26:28+08:00 ] 183.7.15.1 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000149s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000906s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 24,8   [ RunTime:0.000224s ]
+
+[ 2015-04-06T20:26:29+08:00 ] 183.7.15.1 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000157s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000874s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 32,8   [ RunTime:0.000195s ]
+
+[ 2015-04-06T20:26:31+08:00 ] 183.7.15.1 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000154s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000940s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 40,8   [ RunTime:0.000194s ]
+
+[ 2015-04-06T20:26:36+08:00 ] 183.7.15.1 /Index/Index/loveBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000159s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `star_ip_list` [ RunTime:0.001030s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '183.7.15.1' ) AND ( `date` = '15-04-06' )  [ RunTime:0.003818s ]
+SQL: INSERT INTO `star_ip_list` (`login_ip`,`date`) VALUES ('183.7.15.1','15-04-06') [ RunTime:0.000506s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '183.7.15.1' ) AND ( `date` = '15-04-06' )  [ RunTime:0.003766s ]
+SQL: UPDATE `star_ip_list` SET `times`=times+1 WHERE ( `login_ip` = '183.7.15.1' ) AND ( `date` = '15-04-06' ) [ RunTime:0.019047s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000882s ]
+SQL: UPDATE `star_blog` SET `vote_number`=vote_number+1 WHERE ( `id` = 28 ) [ RunTime:0.000500s ]
+
+[ 2015-04-06T21:48:38+08:00 ] 182.118.22.229 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000430s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000229s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000143s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000096s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000828s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000165s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000234s ]
+
+[ 2015-04-06T21:48:38+08:00 ] 182.118.44.176 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000438s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000232s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000142s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000852s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000163s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000232s ]
+

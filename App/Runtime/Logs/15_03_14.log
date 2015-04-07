@@ -1,0 +1,683 @@
+[ 2015-03-14T23:44:08+08:00 ] 117.43.171.205 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001895s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001999s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000928s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000214s ]
+
+[ 2015-03-14T23:44:09+08:00 ] 222.136.237.252 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001919s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002043s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.001002s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 0,5   [ RunTime:0.000177s ]
+
+[ 2015-03-14T23:44:10+08:00 ] 117.43.171.205 /Index/Index/article.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001897s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002004s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000944s ]
+SQL: SELECT * FROM `star_passage` ORDER BY id DESC  [ RunTime:0.000263s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013506s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001287s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001382s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001144s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005512s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001750s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001837s ]
+
+[ 2015-03-14T23:44:10+08:00 ] 117.43.171.205 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001875s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001982s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001620s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000944s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 0,5   [ RunTime:0.000179s ]
+
+[ 2015-03-14T23:44:27+08:00 ] 117.43.171.205 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001894s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002008s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.001019s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 5,5   [ RunTime:0.000568s ]
+
+[ 2015-03-14T23:44:32+08:00 ] 117.43.171.205 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001898s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002009s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001619s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000922s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 10,5   [ RunTime:0.000651s ]
+
+[ 2015-03-14T23:44:33+08:00 ] 117.173.196.74 /Index/Index/loveArticle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001893s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002004s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001619s ]
+SQL: SHOW COLUMNS FROM `star_ip_list` [ RunTime:0.006065s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '117.173.196.74' ) AND ( `date` = '15-03-14' )  [ RunTime:0.000190s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '117.173.196.74' ) AND ( `date` = '15-03-14' )  [ RunTime:0.000183s ]
+
+[ 2015-03-14T23:44:35+08:00 ] 117.173.196.74 /Index/Index/loveArticle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001923s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002045s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+SQL: SHOW COLUMNS FROM `star_ip_list` [ RunTime:0.001019s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '117.173.196.74' ) AND ( `date` = '15-03-14' )  [ RunTime:0.000202s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '117.173.196.74' ) AND ( `date` = '15-03-14' )  [ RunTime:0.000188s ]
+
+[ 2015-03-14T23:44:36+08:00 ] 117.43.171.205 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001915s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002038s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001656s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000994s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 15,5   [ RunTime:0.000660s ]
+
+[ 2015-03-14T23:44:41+08:00 ] 117.43.171.205 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001866s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001979s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000979s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 20,5   [ RunTime:0.000655s ]
+
+[ 2015-03-14T23:44:44+08:00 ] 117.43.171.205 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001884s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002002s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000946s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 25,5   [ RunTime:0.000196s ]
+
+[ 2015-03-14T23:45:52+08:00 ] 117.43.171.205 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001910s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002027s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000998s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 0,5   [ RunTime:0.000140s ]
+
+[ 2015-03-14T23:46:07+08:00 ] 117.43.171.205 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014186s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001322s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001323s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001175s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005506s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001675s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001755s ]
+
+[ 2015-03-14T23:46:08+08:00 ] 117.43.171.205 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001940s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002056s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001012s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000228s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013329s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001335s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001319s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001225s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005582s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001692s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001775s ]
+
+[ 2015-03-14T23:46:08+08:00 ] 117.43.171.205 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001908s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002023s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001043s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000203s ]
+
+[ 2015-03-14T23:46:10+08:00 ] 117.43.171.205 /Index/Index/article.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001898s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002013s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001652s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000951s ]
+SQL: SELECT * FROM `star_passage` ORDER BY id DESC  [ RunTime:0.000272s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013405s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001324s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001335s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001193s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005539s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001694s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001777s ]
+
+[ 2015-03-14T23:46:10+08:00 ] 117.43.171.205 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001925s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002047s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000939s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 0,5   [ RunTime:0.000193s ]
+
+[ 2015-03-14T23:46:39+08:00 ] 117.43.171.205 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001890s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002002s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.001019s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 5,5   [ RunTime:0.000200s ]
+
+[ 2015-03-14T23:46:40+08:00 ] 117.43.171.205 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001891s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001994s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000878s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 10,5   [ RunTime:0.000200s ]
+
+[ 2015-03-14T23:46:42+08:00 ] 117.43.171.205 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001894s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002003s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000964s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 15,5   [ RunTime:0.000249s ]
+
+[ 2015-03-14T23:46:45+08:00 ] 117.43.171.205 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001910s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002028s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000989s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 20,5   [ RunTime:0.000211s ]
+
+[ 2015-03-14T23:46:48+08:00 ] 117.43.171.205 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001879s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001989s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000973s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 25,5   [ RunTime:0.000159s ]
+
+[ 2015-03-14T23:46:50+08:00 ] 117.43.171.205 /Index/Index/loveArticle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001872s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001984s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+SQL: SHOW COLUMNS FROM `star_ip_list` [ RunTime:0.000993s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '117.43.171.205' ) AND ( `date` = '15-03-14' )  [ RunTime:0.000857s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '117.43.171.205' ) AND ( `date` = '15-03-14' )  [ RunTime:0.000195s ]
+SQL: UPDATE `star_ip_list` SET `p_times`=p_times+1 WHERE ( `login_ip` = '117.43.171.205' ) AND ( `date` = '15-03-14' ) [ RunTime:0.003101s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000886s ]
+SQL: UPDATE `star_passage` SET `vote_number`=vote_number+1 WHERE ( `id` = 11 ) [ RunTime:0.000596s ]
+
+[ 2015-03-14T23:46:55+08:00 ] 117.43.171.205 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001910s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002036s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001019s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000209s ]
+
+[ 2015-03-14T23:46:58+08:00 ] 117.43.171.205 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001877s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001991s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001005s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 8,8   [ RunTime:0.000538s ]
+
+[ 2015-03-14T23:47:03+08:00 ] 117.43.171.205 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001915s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002040s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000966s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 16,8   [ RunTime:0.000540s ]
+
+[ 2015-03-14T23:47:08+08:00 ] 117.43.171.205 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001881s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001994s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000973s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 24,8   [ RunTime:0.000599s ]
+
+[ 2015-03-14T23:47:12+08:00 ] 117.43.171.205 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001888s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000959s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 32,8   [ RunTime:0.000578s ]
+
+[ 2015-03-14T23:47:13+08:00 ] 117.43.171.205 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001880s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001991s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.010273s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 40,8   [ RunTime:0.000564s ]
+
+[ 2015-03-14T23:48:50+08:00 ] 106.90.133.92 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014204s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001336s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001330s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001159s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005520s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001667s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001747s ]
+
+[ 2015-03-14T23:48:50+08:00 ] 106.90.133.92 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001907s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002024s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001652s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001034s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000211s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013451s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001332s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001328s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001170s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005531s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001747s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001830s ]
+
+[ 2015-03-14T23:48:53+08:00 ] 106.90.133.92 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001876s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001990s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001016s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000195s ]
+
+[ 2015-03-14T23:49:29+08:00 ] 106.90.133.92 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001899s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002015s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000984s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000225s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013054s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001327s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001320s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001169s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005516s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001696s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001780s ]
+
+[ 2015-03-14T23:49:30+08:00 ] 106.90.133.92 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001902s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002021s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000967s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000173s ]
+
+[ 2015-03-14T23:49:39+08:00 ] 106.90.133.92 /Index/Index/article.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001880s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001993s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000971s ]
+SQL: SELECT * FROM `star_passage` ORDER BY id DESC  [ RunTime:0.001080s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013419s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001321s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001349s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001185s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005549s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001699s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001782s ]
+
+[ 2015-03-14T23:49:40+08:00 ] 106.90.133.92 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001885s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001994s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000966s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 0,5   [ RunTime:0.000601s ]
+
+[ 2015-03-14T23:58:39+08:00 ] 121.48.171.210 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001734s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014373s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001328s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001337s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001166s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005534s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001719s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001801s ]
+
+[ 2015-03-14T23:58:39+08:00 ] 121.48.171.210 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001890s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001995s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001043s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000223s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013429s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001320s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001330s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001192s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005529s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001689s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001773s ]
+
+[ 2015-03-14T23:58:40+08:00 ] 121.48.171.210 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001894s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002006s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001029s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000162s ]
+
+[ 2015-03-14T23:58:50+08:00 ] 121.48.171.210 /Index/Index/article.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001918s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002037s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.001047s ]
+SQL: SELECT * FROM `star_passage` ORDER BY id DESC  [ RunTime:0.000280s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013424s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001328s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001333s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001171s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005543s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001678s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001762s ]
+
+[ 2015-03-14T23:58:52+08:00 ] 121.48.171.210 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001937s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002057s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000976s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 0,5   [ RunTime:0.000195s ]
+
+[ 2015-03-14T23:59:00+08:00 ] 121.48.171.210 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001936s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002097s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000982s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 5,5   [ RunTime:0.000581s ]
+
+[ 2015-03-14T23:59:13+08:00 ] 121.48.171.210 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001901s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002017s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.001056s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 10,5   [ RunTime:0.000635s ]
+
+[ 2015-03-14T23:59:19+08:00 ] 121.48.171.210 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001906s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002021s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.001059s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 15,5   [ RunTime:0.000659s ]
+
+[ 2015-03-14T23:59:27+08:00 ] 121.48.171.210 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001900s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002011s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001620s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 20,5   [ RunTime:0.000671s ]
+
+[ 2015-03-14T23:59:34+08:00 ] 121.48.171.210 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001946s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002074s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.001014s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 25,5   [ RunTime:0.000689s ]
+
+[ 2015-03-14T23:59:35+08:00 ] 121.48.171.210 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001886s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001992s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000929s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 30,5   [ RunTime:0.000678s ]
+
+[ 2015-03-14T23:59:36+08:00 ] 121.48.171.210 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001893s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002008s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000977s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 35,5   [ RunTime:0.000693s ]
+
+[ 2015-03-14T23:59:38+08:00 ] 121.48.171.210 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002064s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000985s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 40,5   [ RunTime:0.000707s ]
+
+[ 2015-03-14T23:59:41+08:00 ] 121.48.171.210 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001872s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001987s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.001022s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 45,5   [ RunTime:0.000729s ]
+
+[ 2015-03-14T23:59:43+08:00 ] 121.48.171.210 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001885s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001995s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000948s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 50,5   [ RunTime:0.000709s ]
+
+[ 2015-03-14T23:59:46+08:00 ] 121.48.171.210 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001905s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002017s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.001017s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 55,5   [ RunTime:0.000743s ]
+
+[ 2015-03-14T23:59:47+08:00 ] 121.48.171.210 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001917s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002041s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001654s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000946s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 60,5   [ RunTime:0.000745s ]
+
+[ 2015-03-14T23:59:53+08:00 ] 121.48.171.210 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001888s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.008882s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 65,5   [ RunTime:0.000767s ]
+
+[ 2015-03-14T23:59:53+08:00 ] 121.48.171.210 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001884s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001995s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000991s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 70,5   [ RunTime:0.000776s ]
+
+[ 2015-03-14T23:59:55+08:00 ] 121.48.171.210 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001947s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002063s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000990s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 75,5   [ RunTime:0.000785s ]
+

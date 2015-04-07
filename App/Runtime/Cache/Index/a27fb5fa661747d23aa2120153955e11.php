@@ -1,0 +1,89 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>电子科技大学首届优秀博客、博文评选</title>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/base.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/main.css">
+</head>
+<body style="overflow:hidden;">
+<div>
+<div class="content">
+	<div class="main">
+		<div class="logo">
+			<img src="__PUBLIC__/images/LOGO.png">
+		</div>
+		<h1 style="text-indent:-9999em;" class="title">电子科技大学首届优秀博客、博文评选</h1>
+		<div style="text-indent:-9999em;" class="timeline">
+			<div class="wrap_timeline">
+				<div class="timeline_up">
+					<p class="name">启动</p>
+					<p class="time">2014年11月10日</p>
+					<div class="timeline_up_point"></div>
+				</div>
+				<div class="timeline_down">
+					<div class="timeline_down_point"></div>
+					<p class="time">2014年11月30日</p>
+					<p class="name">提交作品</p>
+				</div>
+				<div class="timeline_up">
+					<p class="name">一轮评选</p>
+					<p class="time">2015年1月</p>
+					<div class="timeline_up_point"></div>
+				</div>
+				<div class="timeline_down">
+					<div class="timeline_down_point"></div>
+					<p class="time">2015年3月9日-3月15日</p>
+					<p class="name">网上投票</p>
+				</div>
+				<div class="timeline_up">
+					<p class="name">专家评选</p>
+					<p class="time">2015年4月</p>
+					<div class="timeline_up_point"></div>
+				</div>
+				<div class="timeline_down">
+					<div class="timeline_down_point"></div>
+					<p class="time">2015年5月</p>
+					<p class="name">宣传推广</p>
+				</div>
+			</div>
+		</div>
+		<div id="choice">
+			<div id="wrap_choice">
+				<a id="broadcast_vote" href="javascript:void(0);"></a>
+				<img src="__PUBLIC__/images/fenge.png">
+				<a id="article_vote" href="javascript:void(0);"></a>
+			</div>
+		</div>
+		<div id="vote"><a href="javascript:void(0);"></a></div>
+	</div>
+</div>
+</div>
+<iframe frameborder="0" width="100%" src="<?php echo U('Index/Index/broadcast');?>"></iframe>
+<script type="text/javascript" src="__PUBLIC__/scripts/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		var clientHeight = $(window).height();
+		var ifm = $('iframe');
+		$('body').css({'height':clientHeight + 'px'});
+		$('.main').css({'top':(clientHeight-576)/2+'px'});
+		$('iframe').css({'display':'none'});
+		$('#broadcast_vote').click(function(){
+			$('body,html').animate({'scrollTop':clientHeight + 'px'},500);
+			ifm[0].src = "<?php echo U('Index/Index/broadcast');?>";
+			ifm.css({'height':clientHeight + 'px','display':'block'}).trigger('click');
+		});
+		$('#article_vote').click(function(){
+			$('body,html').animate({'scrollTop':clientHeight + 'px'},500);
+			ifm[0].src = "<?php echo U('Index/Index/article');?>";
+			ifm.css({'height':clientHeight + 'px','display':'block'}).trigger('click');
+		});
+		$('#vote').click(function(){
+			$('body,html').animate({'scrollTop':clientHeight + 'px'},500);
+			ifm[0].src = "<?php echo U('Index/Index/rule');?>";
+			ifm.css({'height':clientHeight + 'px','display':'block'}).trigger('click');
+		});
+	});
+</script>
+</body>
+</html>

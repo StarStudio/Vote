@@ -1,0 +1,124 @@
+body{
+	min-width: 1085px;
+}
+.header{
+	height: 418px;
+	background: url(../images/bgline.jpg) repeat-y center center;
+	box-shadow: 0 3px 4px #9d9893;
+	border-bottom\0: 2px solid #9d9893;
+	padding-top: 25px;
+}
+.main_title{
+	width: 1045px;
+	height: 350px;
+	margin: 0 auto;
+	border: 20px solid #fff;
+	background: url(../images/bgbd.jpg) center center no-repeat;
+}
+.main_title h1{
+	font-family: 'yuweij';
+	color: #005ba2;
+	font-size: 63px;
+	text-align: center;
+	line-height: 275px;
+	text-shadow: 0 3px 1px #f8f8f8, 0 -3px 1px #f8f8f8,3px 0 1px #f8f8f8,-3px 0 1px #f8f8f8;
+}
+.main_title img{
+	position: relative;
+	height: 100px;
+	top: 30px;
+	left: -15px;
+}
+.shadow{
+	width: 1086px;
+	height: 28px;
+	margin: 0 auto;
+	background: url(../images/shadow.png) no-repeat center center;
+}
+#section{
+	width: 1086px;
+	margin: 0 auto;
+	background: #fff;
+	padding-bottom: 20px;
+	border-bottom: 65px solid #303030;
+	box-shadow: 3px 0 2px #7e7e7c, -3px 0 2px #7e7e7c;
+	border-left\0: 2px solid #7e7e7c;
+	border-right\0: 2px solid #7e7e7c;
+}
+#footer{
+	font-family: '微软雅黑';
+	width: 1086px;
+	height: 145px;
+	color: #949491;
+	background: #fff;
+	margin: 0 auto;
+}
+#footer p{
+	text-align: center;
+	padding-top: 35px;
+	word-spacing: 90px;
+	line-height: 35px;
+	font-size: 20px;
+}
+.shadow_bo{
+	width: 1062px;
+	height: 28px;
+	margin: 0 auto;
+	background: url(../images/shadow_bo.png) no-repeat center center;
+}
+p.copyright{
+	font-family: '黑体';
+	text-align: center;
+	color: #736d6d;
+	font-size: 12px;
+	padding-bottom: 5px;
+}
+span.studio{
+	font-family: 'MFShangHei_Noncommercial-Bold';
+}
+span.uestc{
+	font-family: 'yuweij';
+}
+#btn_top{
+	width: 70px;
+	height: 70px;
+	background: url(../images/TOP.png) no-repeat center center;
+	position:fixed;
+	right: 8%;
+	bottom: 20px;
+	cursor: pointer;
+}
+#btn_top:active{
+	background: url(../images/TOP-2.png) no-repeat center center;
+}
+#search{
+	float: right;
+	position: relative;
+	width: 220px;
+	height: 40px;
+	line-height: 50px;
+	background: url(../images/search1.png) no-repeat center 10px;
+	margin-right: 20px;
+}
+#search_text{
+	position: absolute;
+	background: none;
+	border: none;
+	top:40%;
+	left: 30px;
+	width: 160px;
+	height: 20px;
+	line-height: 20px;
+	color: #8f8f8f;
+	outline: none;
+}
+#search_button{
+	position: absolute;
+	top: 43%;
+	left:190px;
+	width: 20px;
+	height: 20px;
+	background: url(../images/search2.png) no-repeat;
+	border:none;
+	cursor: pointer;
+}

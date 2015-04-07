@@ -1,0 +1,2344 @@
+[ 2015-03-30T00:20:35+08:00 ] 61.135.190.105 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000457s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000246s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000145s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000867s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000170s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000244s ]
+
+[ 2015-03-30T01:51:57+08:00 ] 66.249.65.196 /robots.txt
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000209s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Undefined variable: group /home/www/vote/ThinkPHP/Lib/Core/App.class.php 第 102 行.
+ERR: 无法加载模块:robots.txt
+
+[ 2015-03-30T01:51:57+08:00 ] 66.249.65.196 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000454s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000247s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000147s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000105s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000172s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000247s ]
+
+[ 2015-03-30T01:52:16+08:00 ] 66.249.65.200 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000175s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000986s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000615s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004732s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000198s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000153s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000170s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000246s ]
+
+[ 2015-03-30T02:50:03+08:00 ] 123.125.71.16 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000415s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000219s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000130s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000086s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000805s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000144s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000212s ]
+
+[ 2015-03-30T02:50:43+08:00 ] 123.125.71.46 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000434s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000250s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000135s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000091s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000149s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000221s ]
+
+[ 2015-03-30T02:52:46+08:00 ] 220.181.108.113 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000436s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000230s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000138s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000093s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000824s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000148s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000222s ]
+
+[ 2015-03-30T02:53:27+08:00 ] 220.181.108.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000428s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000229s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000134s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000092s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000812s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000146s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000219s ]
+
+[ 2015-03-30T03:27:17+08:00 ] 182.92.240.241 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000429s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000248s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000137s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000095s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000842s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000154s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000225s ]
+
+[ 2015-03-30T03:37:27+08:00 ] 123.125.71.25 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000448s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000240s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000148s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000096s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000850s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000165s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000239s ]
+
+[ 2015-03-30T03:38:02+08:00 ] 123.125.71.19 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000405s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000238s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000131s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000087s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000804s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000139s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000208s ]
+
+[ 2015-03-30T03:39:34+08:00 ] 220.181.108.149 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000411s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000225s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000130s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000087s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000796s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000142s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000211s ]
+
+[ 2015-03-30T03:40:27+08:00 ] 220.181.108.148 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000427s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000228s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000135s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000090s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000812s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000151s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000224s ]
+
+[ 2015-03-30T04:25:13+08:00 ] 198.50.145.254 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000424s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000228s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000133s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000094s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000816s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000149s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000219s ]
+
+[ 2015-03-30T08:57:17+08:00 ] 221.226.241.218 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000222s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000956s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000225s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004765s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000193s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000151s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000171s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000247s ]
+
+[ 2015-03-30T08:57:20+08:00 ] 221.226.241.218 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000211s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000997s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000515s ]
+
+[ 2015-03-30T08:57:24+08:00 ] 221.226.241.218 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000173s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000948s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 8,8   [ RunTime:0.000531s ]
+
+[ 2015-03-30T08:57:25+08:00 ] 221.226.241.218 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000205s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000944s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 16,8   [ RunTime:0.000536s ]
+
+[ 2015-03-30T08:57:27+08:00 ] 221.226.241.218 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000147s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000952s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 24,8   [ RunTime:0.000745s ]
+
+[ 2015-03-30T08:57:28+08:00 ] 221.226.241.218 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000166s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000976s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 32,8   [ RunTime:0.000554s ]
+
+[ 2015-03-30T08:57:28+08:00 ] 221.226.241.218 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000876s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 40,8   [ RunTime:0.000588s ]
+
+[ 2015-03-30T08:57:31+08:00 ] 221.226.241.218 /Index/Index/loveBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000171s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `star_ip_list` [ RunTime:0.000931s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '221.226.241.218' ) AND ( `date` = '15-03-30' )  [ RunTime:0.004169s ]
+SQL: INSERT INTO `star_ip_list` (`login_ip`,`date`) VALUES ('221.226.241.218','15-03-30') [ RunTime:0.000530s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '221.226.241.218' ) AND ( `date` = '15-03-30' )  [ RunTime:0.003687s ]
+SQL: UPDATE `star_ip_list` SET `times`=times+1 WHERE ( `login_ip` = '221.226.241.218' ) AND ( `date` = '15-03-30' ) [ RunTime:0.019103s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000865s ]
+SQL: UPDATE `star_blog` SET `vote_number`=vote_number+1 WHERE ( `id` = 28 ) [ RunTime:0.000479s ]
+
+[ 2015-03-30T08:59:30+08:00 ] 183.62.115.226 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000185s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000990s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000617s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004771s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000197s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000153s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000858s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000173s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000251s ]
+
+[ 2015-03-30T08:59:42+08:00 ] 180.110.2.53 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001014s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000190s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004737s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000196s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000152s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000854s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000171s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000249s ]
+
+[ 2015-03-30T08:59:42+08:00 ] 180.110.2.53 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000174s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000988s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000514s ]
+
+[ 2015-03-30T08:59:43+08:00 ] 180.110.2.53 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000181s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000837s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 8,8   [ RunTime:0.000406s ]
+
+[ 2015-03-30T08:59:44+08:00 ] 180.110.2.53 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000150s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000951s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 16,8   [ RunTime:0.000540s ]
+
+[ 2015-03-30T08:59:46+08:00 ] 180.110.2.53 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000165s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000924s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 24,8   [ RunTime:0.000577s ]
+
+[ 2015-03-30T08:59:48+08:00 ] 180.110.2.53 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000145s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000875s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 32,8   [ RunTime:0.000537s ]
+
+[ 2015-03-30T08:59:48+08:00 ] 180.110.2.53 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000145s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000898s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 40,8   [ RunTime:0.000534s ]
+
+[ 2015-03-30T08:59:51+08:00 ] 180.110.2.53 /Index/Index/loveBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000156s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `star_ip_list` [ RunTime:0.000937s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '180.110.2.53' ) AND ( `date` = '15-03-30' )  [ RunTime:0.003808s ]
+SQL: INSERT INTO `star_ip_list` (`login_ip`,`date`) VALUES ('180.110.2.53','15-03-30') [ RunTime:0.000348s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '180.110.2.53' ) AND ( `date` = '15-03-30' )  [ RunTime:0.003748s ]
+SQL: UPDATE `star_ip_list` SET `times`=times+1 WHERE ( `login_ip` = '180.110.2.53' ) AND ( `date` = '15-03-30' ) [ RunTime:0.018994s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000874s ]
+SQL: UPDATE `star_blog` SET `vote_number`=vote_number+1 WHERE ( `id` = 28 ) [ RunTime:0.000875s ]
+
+[ 2015-03-30T09:09:26+08:00 ] 222.197.176.164 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000470s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000241s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000144s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000104s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000866s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000167s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000239s ]
+
+[ 2015-03-30T09:09:26+08:00 ] 222.197.176.164 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000456s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000242s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000148s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000883s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000163s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000237s ]
+
+[ 2015-03-30T09:09:26+08:00 ] 101.226.65.108 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000432s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000232s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000141s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000094s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000850s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000160s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000230s ]
+
+[ 2015-03-30T09:09:56+08:00 ] 58.216.247.45 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000211s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000993s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000578s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004727s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000176s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000134s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000087s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000144s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000218s ]
+
+[ 2015-03-30T09:09:56+08:00 ] 58.216.247.45 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000205s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.005560s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000510s ]
+
+[ 2015-03-30T09:09:57+08:00 ] 58.216.247.45 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000151s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000989s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 8,8   [ RunTime:0.000529s ]
+
+[ 2015-03-30T09:09:58+08:00 ] 58.216.247.45 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000154s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000947s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 16,8   [ RunTime:0.000545s ]
+
+[ 2015-03-30T09:10:00+08:00 ] 58.216.247.45 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000210s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000934s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 24,8   [ RunTime:0.000568s ]
+
+[ 2015-03-30T09:10:02+08:00 ] 58.216.247.45 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000976s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 32,8   [ RunTime:0.000561s ]
+
+[ 2015-03-30T09:10:02+08:00 ] 58.216.247.45 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000974s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 40,8   [ RunTime:0.000487s ]
+
+[ 2015-03-30T09:10:07+08:00 ] 58.216.247.45 /Index/Index/loveBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000157s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `star_ip_list` [ RunTime:0.009243s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '58.216.247.45' ) AND ( `date` = '15-03-30' )  [ RunTime:0.003649s ]
+SQL: INSERT INTO `star_ip_list` (`login_ip`,`date`) VALUES ('58.216.247.45','15-03-30') [ RunTime:0.000333s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '58.216.247.45' ) AND ( `date` = '15-03-30' )  [ RunTime:0.003625s ]
+SQL: UPDATE `star_ip_list` SET `times`=times+1 WHERE ( `login_ip` = '58.216.247.45' ) AND ( `date` = '15-03-30' ) [ RunTime:0.018792s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000936s ]
+SQL: UPDATE `star_blog` SET `vote_number`=vote_number+1 WHERE ( `id` = 28 ) [ RunTime:0.000364s ]
+
+[ 2015-03-30T09:26:02+08:00 ] 112.90.78.25 /Index/Index/broadcast.html2608
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000219s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+ERR: 非法操作:broadcast.html2608
+
+[ 2015-03-30T09:26:04+08:00 ] 61.135.187.48 /Index/Index/broadcast.html2608
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000206s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+ERR: 非法操作:broadcast.html2608
+
+[ 2015-03-30T09:27:26+08:00 ] 218.86.124.218 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000214s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000994s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000572s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004787s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000199s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000151s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000118s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000173s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000251s ]
+
+[ 2015-03-30T09:27:28+08:00 ] 218.86.124.218 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000204s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000998s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000501s ]
+
+[ 2015-03-30T09:27:32+08:00 ] 218.86.124.218 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000149s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000933s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 8,8   [ RunTime:0.000457s ]
+
+[ 2015-03-30T09:27:49+08:00 ] 218.86.124.218 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000266s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000966s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 16,8   [ RunTime:0.000556s ]
+
+[ 2015-03-30T09:27:51+08:00 ] 218.86.124.218 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000168s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000873s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 24,8   [ RunTime:0.000599s ]
+
+[ 2015-03-30T09:27:52+08:00 ] 218.86.124.218 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000148s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000887s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 32,8   [ RunTime:0.000503s ]
+
+[ 2015-03-30T09:27:53+08:00 ] 218.86.124.218 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000160s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000909s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 40,8   [ RunTime:0.000558s ]
+
+[ 2015-03-30T09:27:59+08:00 ] 218.86.124.218 /Index/Index/loveBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000163s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `star_ip_list` [ RunTime:0.000900s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '218.86.124.218' ) AND ( `date` = '15-03-30' )  [ RunTime:0.003777s ]
+SQL: INSERT INTO `star_ip_list` (`login_ip`,`date`) VALUES ('218.86.124.218','15-03-30') [ RunTime:0.000343s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '218.86.124.218' ) AND ( `date` = '15-03-30' )  [ RunTime:0.003726s ]
+SQL: UPDATE `star_ip_list` SET `times`=times+1 WHERE ( `login_ip` = '218.86.124.218' ) AND ( `date` = '15-03-30' ) [ RunTime:0.018910s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000880s ]
+SQL: UPDATE `star_blog` SET `vote_number`=vote_number+1 WHERE ( `id` = 28 ) [ RunTime:0.000546s ]
+
+[ 2015-03-30T09:37:23+08:00 ] 123.125.71.77 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000460s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000244s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000148s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000878s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000174s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000249s ]
+
+[ 2015-03-30T09:38:06+08:00 ] 123.125.71.90 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000230s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000134s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000094s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000849s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000146s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000221s ]
+
+[ 2015-03-30T09:38:37+08:00 ] 220.181.108.103 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000447s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000240s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000149s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000103s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000172s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000247s ]
+
+[ 2015-03-30T09:38:45+08:00 ] 220.181.108.115 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000436s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000226s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000139s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000092s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000803s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000165s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000252s ]
+
+[ 2015-03-30T09:52:52+08:00 ] 36.63.154.199 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000221s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000987s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000591s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004743s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000201s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000151s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000173s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000248s ]
+
+[ 2015-03-30T09:52:53+08:00 ] 36.63.154.199 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000189s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000908s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000446s ]
+
+[ 2015-03-30T09:52:57+08:00 ] 36.63.154.199 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000155s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001032s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 8,8   [ RunTime:0.000555s ]
+
+[ 2015-03-30T09:52:59+08:00 ] 36.63.154.199 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000154s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000988s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 16,8   [ RunTime:0.000558s ]
+
+[ 2015-03-30T09:53:01+08:00 ] 36.63.154.199 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000151s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000973s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 24,8   [ RunTime:0.000664s ]
+
+[ 2015-03-30T09:53:02+08:00 ] 36.63.154.199 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000906s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 32,8   [ RunTime:0.000552s ]
+
+[ 2015-03-30T09:53:03+08:00 ] 36.63.154.199 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000145s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.011868s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 40,8   [ RunTime:0.000535s ]
+
+[ 2015-03-30T10:06:35+08:00 ] 58.213.50.26 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000199s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000932s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000225s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004512s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000185s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000151s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000809s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000163s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000232s ]
+
+[ 2015-03-30T10:06:36+08:00 ] 58.213.50.26 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000917s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000208s ]
+
+[ 2015-03-30T10:06:38+08:00 ] 58.213.50.26 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000149s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000927s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 8,8   [ RunTime:0.000198s ]
+
+[ 2015-03-30T10:06:38+08:00 ] 58.213.50.26 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000934s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 16,8   [ RunTime:0.000209s ]
+
+[ 2015-03-30T10:06:39+08:00 ] 58.213.50.26 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000156s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000946s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 24,8   [ RunTime:0.000176s ]
+
+[ 2015-03-30T10:06:40+08:00 ] 58.213.50.26 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000154s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000930s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 32,8   [ RunTime:0.000200s ]
+
+[ 2015-03-30T10:06:40+08:00 ] 58.213.50.26 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000217s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000935s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 40,8   [ RunTime:0.000190s ]
+
+[ 2015-03-30T10:11:02+08:00 ] 180.109.192.132 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000213s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000949s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000172s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004768s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000196s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000151s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000826s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000172s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000247s ]
+
+[ 2015-03-30T10:11:02+08:00 ] 180.109.192.132 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000207s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000895s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000197s ]
+
+[ 2015-03-30T10:11:04+08:00 ] 180.109.192.132 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000203s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000913s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 8,8   [ RunTime:0.000199s ]
+
+[ 2015-03-30T10:11:04+08:00 ] 180.109.192.132 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000145s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000849s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 16,8   [ RunTime:0.000208s ]
+
+[ 2015-03-30T10:11:05+08:00 ] 180.109.192.132 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000928s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 24,8   [ RunTime:0.000198s ]
+
+[ 2015-03-30T10:11:06+08:00 ] 180.109.192.132 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000150s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000979s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 32,8   [ RunTime:0.000190s ]
+
+[ 2015-03-30T10:11:06+08:00 ] 180.109.192.132 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000171s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000968s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 40,8   [ RunTime:0.000192s ]
+
+[ 2015-03-30T10:11:09+08:00 ] 180.109.192.132 /Index/Index/loveBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000156s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `star_ip_list` [ RunTime:0.001032s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '180.109.192.132' ) AND ( `date` = '15-03-30' )  [ RunTime:0.003840s ]
+SQL: INSERT INTO `star_ip_list` (`login_ip`,`date`) VALUES ('180.109.192.132','15-03-30') [ RunTime:0.000670s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '180.109.192.132' ) AND ( `date` = '15-03-30' )  [ RunTime:0.003763s ]
+SQL: UPDATE `star_ip_list` SET `times`=times+1 WHERE ( `login_ip` = '180.109.192.132' ) AND ( `date` = '15-03-30' ) [ RunTime:0.019131s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000875s ]
+SQL: UPDATE `star_blog` SET `vote_number`=vote_number+1 WHERE ( `id` = 28 ) [ RunTime:0.000546s ]
+
+[ 2015-03-30T10:18:13+08:00 ] 123.125.71.16 /Index/Index/article.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000996s ]
+SQL: SELECT * FROM `star_passage` ORDER BY id DESC  [ RunTime:0.000263s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004773s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000196s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000152s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000857s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000169s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000245s ]
+
+[ 2015-03-30T10:23:54+08:00 ] 220.181.108.95 /Index/Index/passageData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000210s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `star_passage` [ RunTime:0.000936s ]
+SQL: SELECT * FROM `star_passage` ORDER BY convert(title using gb2312) ASC LIMIT 0,5   [ RunTime:0.000214s ]
+
+[ 2015-03-30T10:25:31+08:00 ] 222.174.123.131 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000439s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000258s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000145s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000870s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000167s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000238s ]
+
+[ 2015-03-30T10:36:52+08:00 ] 139.205.46.166 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000213s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000965s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000598s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004829s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000214s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000154s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000857s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000172s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2015-03-30T10:36:53+08:00 ] 139.205.46.166 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000207s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000987s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000472s ]
+
+[ 2015-03-30T10:36:55+08:00 ] 139.205.46.166 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000175s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001020s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 8,8   [ RunTime:0.000531s ]
+
+[ 2015-03-30T10:36:57+08:00 ] 139.205.46.166 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000154s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000971s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 16,8   [ RunTime:0.000542s ]
+
+[ 2015-03-30T10:36:57+08:00 ] 139.205.46.166 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000220s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000868s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 24,8   [ RunTime:0.000525s ]
+
+[ 2015-03-30T10:36:59+08:00 ] 139.205.46.166 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000173s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001009s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 32,8   [ RunTime:0.000584s ]
+
+[ 2015-03-30T10:36:59+08:00 ] 139.205.46.166 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000147s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000839s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 40,8   [ RunTime:0.000600s ]
+
+[ 2015-03-30T10:37:31+08:00 ] 139.205.46.166 /Index/Index/loveBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000178s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `star_ip_list` [ RunTime:0.000988s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '139.205.46.166' ) AND ( `date` = '15-03-30' )  [ RunTime:0.003783s ]
+SQL: INSERT INTO `star_ip_list` (`login_ip`,`date`) VALUES ('139.205.46.166','15-03-30') [ RunTime:0.000572s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '139.205.46.166' ) AND ( `date` = '15-03-30' )  [ RunTime:0.003730s ]
+SQL: UPDATE `star_ip_list` SET `times`=times+1 WHERE ( `login_ip` = '139.205.46.166' ) AND ( `date` = '15-03-30' ) [ RunTime:0.019132s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000926s ]
+SQL: UPDATE `star_blog` SET `vote_number`=vote_number+1 WHERE ( `id` = 28 ) [ RunTime:0.000766s ]
+
+[ 2015-03-30T10:37:33+08:00 ] 139.205.46.166 /Index/Index/loveBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000170s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `star_ip_list` [ RunTime:0.000955s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '139.205.46.166' ) AND ( `date` = '15-03-30' )  [ RunTime:0.003803s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '139.205.46.166' ) AND ( `date` = '15-03-30' )  [ RunTime:0.000195s ]
+SQL: UPDATE `star_ip_list` SET `times`=times+1 WHERE ( `login_ip` = '139.205.46.166' ) AND ( `date` = '15-03-30' ) [ RunTime:0.019419s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000860s ]
+SQL: UPDATE `star_blog` SET `vote_number`=vote_number+1 WHERE ( `id` = 28 ) [ RunTime:0.000368s ]
+
+[ 2015-03-30T10:37:48+08:00 ] 139.205.46.166 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000226s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000982s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000572s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004737s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000200s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000153s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000169s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000262s ]
+
+[ 2015-03-30T10:37:48+08:00 ] 139.205.46.166 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000170s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000887s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000494s ]
+
+[ 2015-03-30T10:37:50+08:00 ] 139.205.46.166 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000153s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000954s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 8,8   [ RunTime:0.000522s ]
+
+[ 2015-03-30T10:37:51+08:00 ] 139.205.46.166 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000166s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000897s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 16,8   [ RunTime:0.000498s ]
+
+[ 2015-03-30T10:37:53+08:00 ] 139.205.46.166 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000154s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001008s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 24,8   [ RunTime:0.000592s ]
+
+[ 2015-03-30T10:37:54+08:00 ] 139.205.46.166 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000164s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000883s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 32,8   [ RunTime:0.000559s ]
+
+[ 2015-03-30T10:37:54+08:00 ] 139.205.46.166 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000928s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 40,8   [ RunTime:0.000550s ]
+
+[ 2015-03-30T11:04:20+08:00 ] 221.227.248.16 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000210s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000972s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000210s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004808s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000202s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000157s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000103s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000848s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000175s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000266s ]
+
+[ 2015-03-30T11:04:21+08:00 ] 101.226.66.187 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000208s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000968s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000209s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004701s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000195s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000153s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000827s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000171s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000248s ]
+
+[ 2015-03-30T11:04:21+08:00 ] 221.227.248.16 /Public/fonts/yuweij.ttf)%20format(%22truetype%22
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000207s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-30T11:04:22+08:00 ] 221.227.248.16 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000145s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000993s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000230s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003224s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000168s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000134s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000087s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000133s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000201s ]
+
+[ 2015-03-30T11:04:22+08:00 ] 221.227.248.16 /Public/fonts/yuweij.ttf)%20format(%22truetype%22
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+ERR: 无法加载模块:Public
+
+[ 2015-03-30T11:04:22+08:00 ] 221.227.248.16 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000160s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000936s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000207s ]
+
+[ 2015-03-30T11:04:22+08:00 ] 221.227.248.16 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000145s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000848s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000209s ]
+
+[ 2015-03-30T11:06:46+08:00 ] 123.7.89.37 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000196s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000996s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000194s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004793s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000196s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000157s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000106s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000846s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000167s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000243s ]
+
+[ 2015-03-30T11:06:47+08:00 ] 123.7.89.37 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000163s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001008s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000203s ]
+
+[ 2015-03-30T11:06:58+08:00 ] 123.7.89.37 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000153s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000956s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 8,8   [ RunTime:0.000214s ]
+
+[ 2015-03-30T11:08:49+08:00 ] 218.94.71.94 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000165s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000948s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000216s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003352s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000175s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000141s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000093s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000764s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000139s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000209s ]
+
+[ 2015-03-30T11:08:49+08:00 ] 218.94.71.94 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000159s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000987s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000198s ]
+
+[ 2015-03-30T11:18:38+08:00 ] 113.54.156.120 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000444s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000240s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000147s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000116s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000887s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000170s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000246s ]
+
+[ 2015-03-30T11:31:11+08:00 ] 68.180.228.27 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000457s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000245s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000144s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000104s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000861s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000175s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000249s ]
+
+[ 2015-03-30T12:22:26+08:00 ] 121.33.49.103 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000181s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004716s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000193s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000151s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000831s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000174s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000252s ]
+
+[ 2015-03-30T12:22:28+08:00 ] 121.33.49.103 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000206s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000960s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000204s ]
+
+[ 2015-03-30T12:22:31+08:00 ] 121.33.49.103 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000154s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000952s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 8,8   [ RunTime:0.000203s ]
+
+[ 2015-03-30T12:22:32+08:00 ] 121.33.49.103 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000209s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000963s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 16,8   [ RunTime:0.000203s ]
+
+[ 2015-03-30T12:22:34+08:00 ] 121.33.49.103 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000157s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000934s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 24,8   [ RunTime:0.000148s ]
+
+[ 2015-03-30T12:22:37+08:00 ] 121.33.49.103 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000157s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.011050s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 32,8   [ RunTime:0.000205s ]
+
+[ 2015-03-30T12:22:40+08:00 ] 121.33.49.103 /Index/Index/loveBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000176s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `star_ip_list` [ RunTime:0.000964s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '121.33.49.103' ) AND ( `date` = '15-03-30' )  [ RunTime:0.003843s ]
+SQL: INSERT INTO `star_ip_list` (`login_ip`,`date`) VALUES ('121.33.49.103','15-03-30') [ RunTime:0.000339s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '121.33.49.103' ) AND ( `date` = '15-03-30' )  [ RunTime:0.003814s ]
+SQL: UPDATE `star_ip_list` SET `times`=times+1 WHERE ( `login_ip` = '121.33.49.103' ) AND ( `date` = '15-03-30' ) [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000898s ]
+SQL: UPDATE `star_blog` SET `vote_number`=vote_number+1 WHERE ( `id` = 28 ) [ RunTime:0.000954s ]
+
+[ 2015-03-30T12:22:43+08:00 ] 121.33.49.103 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000208s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000955s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 40,8   [ RunTime:0.000827s ]
+
+[ 2015-03-30T12:59:21+08:00 ] 120.1.112.56 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000230s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000985s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000579s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004787s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000194s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000152s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000105s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000833s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000191s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000268s ]
+
+[ 2015-03-30T13:03:06+08:00 ] 223.73.30.232 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000196s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000992s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000214s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004629s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000190s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000153s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000819s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000163s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000236s ]
+
+[ 2015-03-30T13:03:06+08:00 ] 223.73.30.232 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.005069s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000502s ]
+
+[ 2015-03-30T13:03:17+08:00 ] 223.73.30.232 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000991s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 8,8   [ RunTime:0.000482s ]
+
+[ 2015-03-30T13:56:47+08:00 ] 222.197.176.164 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000448s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000232s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000144s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000171s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000239s ]
+
+[ 2015-03-30T13:56:47+08:00 ] 222.197.176.164 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000448s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000240s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000141s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000865s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000166s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000239s ]
+
+[ 2015-03-30T13:58:12+08:00 ] 182.148.104.15 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000432s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000233s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000143s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000165s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000233s ]
+
+[ 2015-03-30T14:19:02+08:00 ] 113.54.148.238 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000439s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000226s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000137s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000108s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000167s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000236s ]
+
+[ 2015-03-30T14:19:02+08:00 ] 113.54.148.238 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000443s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000240s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000142s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000117s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000875s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000160s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000234s ]
+
+[ 2015-03-30T16:04:36+08:00 ] 118.122.120.112 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000439s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000237s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000144s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000096s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000842s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000161s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000230s ]
+
+[ 2015-03-30T17:00:06+08:00 ] 139.202.24.67 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000249s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.010859s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000155s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004860s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000198s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000153s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000106s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000839s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000175s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2015-03-30T17:00:08+08:00 ] 139.202.24.67 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000980s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000195s ]
+
+[ 2015-03-30T17:00:11+08:00 ] 139.202.24.67 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000157s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001022s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 8,8   [ RunTime:0.000203s ]
+
+[ 2015-03-30T18:17:30+08:00 ] 114.104.105.35 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000211s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000999s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004936s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000195s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000170s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000145s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000902s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000170s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2015-03-30T18:17:39+08:00 ] 114.104.105.35 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000154s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001003s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000223s ]
+
+[ 2015-03-30T18:17:45+08:00 ] 114.104.105.35 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000216s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001024s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 8,8   [ RunTime:0.000174s ]
+
+[ 2015-03-30T18:17:51+08:00 ] 114.104.105.35 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000964s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 16,8   [ RunTime:0.000554s ]
+
+[ 2015-03-30T18:17:53+08:00 ] 114.104.105.35 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000165s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000949s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 24,8   [ RunTime:0.000574s ]
+
+[ 2015-03-30T18:18:15+08:00 ] 114.104.105.35 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000169s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000969s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 32,8   [ RunTime:0.000569s ]
+
+[ 2015-03-30T18:18:15+08:00 ] 114.104.105.35 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000167s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000975s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 40,8   [ RunTime:0.000187s ]
+
+[ 2015-03-30T19:03:02+08:00 ] 223.104.10.198 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000209s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000942s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000227s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003729s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000197s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000149s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000807s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000165s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000239s ]
+
+[ 2015-03-30T19:03:02+08:00 ] 112.95.241.183 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000470s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000240s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000142s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000866s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000161s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000235s ]
+
+[ 2015-03-30T19:03:02+08:00 ] 219.133.40.15 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000453s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' /home/www/vote/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000239s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000142s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000857s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000164s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000239s ]
+
+[ 2015-03-30T19:03:03+08:00 ] 223.104.10.198 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000156s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000952s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000202s ]
+
+[ 2015-03-30T19:03:04+08:00 ] 119.147.207.150 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000209s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000911s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000196s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004802s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000177s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000136s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000087s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000765s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000145s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000221s ]
+
+[ 2015-03-30T19:03:05+08:00 ] 119.147.207.150 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001006s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000184s ]
+
+[ 2015-03-30T19:14:40+08:00 ] 121.16.62.154 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000214s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000972s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000225s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004799s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000193s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000152s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000836s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000168s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000246s ]
+
+[ 2015-03-30T19:14:42+08:00 ] 121.16.62.154 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000207s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000966s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000225s ]
+
+[ 2015-03-30T19:14:55+08:00 ] 121.16.62.154 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000155s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000950s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 8,8   [ RunTime:0.000226s ]
+
+[ 2015-03-30T19:14:58+08:00 ] 121.16.62.154 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000167s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001025s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 16,8   [ RunTime:0.000216s ]
+
+[ 2015-03-30T19:15:00+08:00 ] 121.16.62.154 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.005429s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 24,8   [ RunTime:0.000202s ]
+
+[ 2015-03-30T19:15:03+08:00 ] 121.16.62.154 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000170s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000994s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 32,8   [ RunTime:0.000134s ]
+
+[ 2015-03-30T22:18:00+08:00 ] 121.49.92.62 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000213s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000973s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000208s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004802s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000196s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000156s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000107s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000862s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000175s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2015-03-30T22:18:00+08:00 ] 121.49.92.62 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000229s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000211s ]
+
+[ 2015-03-30T22:18:02+08:00 ] 121.49.92.62 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000155s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000981s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 8,8   [ RunTime:0.000206s ]
+
+[ 2015-03-30T22:18:02+08:00 ] 121.49.92.62 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000183s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000850s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 16,8   [ RunTime:0.000212s ]
+
+[ 2015-03-30T22:18:03+08:00 ] 121.49.92.62 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000196s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000904s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 24,8   [ RunTime:0.000197s ]
+
+[ 2015-03-30T22:18:03+08:00 ] 121.49.92.62 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000880s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 32,8   [ RunTime:0.000191s ]
+
+[ 2015-03-30T22:18:03+08:00 ] 121.49.92.62 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000164s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000898s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 40,8   [ RunTime:0.000192s ]
+
+[ 2015-03-30T22:40:48+08:00 ] 14.17.29.92 /Index/Index/broadcast.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000216s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000935s ]
+SQL: SELECT * FROM `star_blog` ORDER BY id DESC  [ RunTime:0.000209s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004785s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000193s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000152s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000835s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000173s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000249s ]
+
+[ 2015-03-30T22:59:27+08:00 ] 39.173.0.3 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000259s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000982s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 0,8   [ RunTime:0.000200s ]
+
+[ 2015-03-30T22:59:33+08:00 ] 39.173.0.3 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000959s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 8,8   [ RunTime:0.000200s ]
+
+[ 2015-03-30T22:59:49+08:00 ] 39.173.0.3 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000169s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000951s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 16,8   [ RunTime:0.000204s ]
+
+[ 2015-03-30T22:59:50+08:00 ] 39.173.0.3 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000161s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000857s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 24,8   [ RunTime:0.000211s ]
+
+[ 2015-03-30T23:00:02+08:00 ] 39.173.0.3 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000968s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 32,8   [ RunTime:0.000196s ]
+
+[ 2015-03-30T23:00:04+08:00 ] 39.173.0.3 /Index/Index/blogData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000997s ]
+SQL: SELECT * FROM `star_blog` ORDER BY convert(username using gb2312) ASC LIMIT 40,8   [ RunTime:0.000135s ]
+
+[ 2015-03-30T23:00:17+08:00 ] 39.173.0.3 /Index/Index/loveBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000176s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `star_ip_list` [ RunTime:0.001003s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '39.173.0.3' ) AND ( `date` = '15-03-30' )  [ RunTime:0.003713s ]
+SQL: INSERT INTO `star_ip_list` (`login_ip`,`date`) VALUES ('39.173.0.3','15-03-30') [ RunTime:0.000320s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '39.173.0.3' ) AND ( `date` = '15-03-30' )  [ RunTime:0.003673s ]
+SQL: UPDATE `star_ip_list` SET `times`=times+1 WHERE ( `login_ip` = '39.173.0.3' ) AND ( `date` = '15-03-30' ) [ RunTime:0.018790s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000882s ]
+SQL: UPDATE `star_blog` SET `vote_number`=vote_number+1 WHERE ( `id` = 28 ) [ RunTime:0.000430s ]
+
+[ 2015-03-30T23:00:19+08:00 ] 39.173.0.3 /Index/Index/loveBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000167s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `star_ip_list` [ RunTime:0.000903s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '39.173.0.3' ) AND ( `date` = '15-03-30' )  [ RunTime:0.003604s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '39.173.0.3' ) AND ( `date` = '15-03-30' )  [ RunTime:0.000200s ]
+SQL: UPDATE `star_ip_list` SET `times`=times+1 WHERE ( `login_ip` = '39.173.0.3' ) AND ( `date` = '15-03-30' ) [ RunTime:0.018877s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000866s ]
+SQL: UPDATE `star_blog` SET `vote_number`=vote_number+1 WHERE ( `id` = 28 ) [ RunTime:0.000289s ]
+
+[ 2015-03-30T23:00:24+08:00 ] 39.173.0.3 /Index/Index/loveBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000168s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `star_ip_list` [ RunTime:0.000972s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '39.173.0.3' ) AND ( `date` = '15-03-30' )  [ RunTime:0.003662s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '39.173.0.3' ) AND ( `date` = '15-03-30' )  [ RunTime:0.000210s ]
+SQL: UPDATE `star_ip_list` SET `times`=times+1 WHERE ( `login_ip` = '39.173.0.3' ) AND ( `date` = '15-03-30' ) [ RunTime:0.018981s ]
+SQL: SHOW COLUMNS FROM `star_blog` [ RunTime:0.000859s ]
+SQL: UPDATE `star_blog` SET `vote_number`=vote_number+1 WHERE ( `id` = 28 ) [ RunTime:0.000368s ]
+
+[ 2015-03-30T23:00:26+08:00 ] 39.173.0.3 /Index/Index/loveBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000159s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `star_ip_list` [ RunTime:0.000965s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '39.173.0.3' ) AND ( `date` = '15-03-30' )  [ RunTime:0.003658s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '39.173.0.3' ) AND ( `date` = '15-03-30' )  [ RunTime:0.000199s ]
+
+[ 2015-03-30T23:00:32+08:00 ] 39.173.0.3 /Index/Index/loveBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000170s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `star_ip_list` [ RunTime:0.000998s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '39.173.0.3' ) AND ( `date` = '15-03-30' )  [ RunTime:0.000192s ]
+SQL: SELECT * FROM `star_ip_list` WHERE ( `login_ip` = '39.173.0.3' ) AND ( `date` = '15-03-30' )  [ RunTime:0.000179s ]
+
